@@ -1,0 +1,28 @@
+server:
+  port: 8090
+
+build:
+  version: 3.0.0
+
+accounts:
+  message: "Welcome to KDCB related accounts local prod API"
+  contactDetails:
+    name: "Sree-Developer"
+    email: "{cipher}a17f5de862cefc052caf48ed915b1f3e45ecd5e6a37b988990d9d2d3fb157dfc"
+  onCallSupport: "+91 7382636119"
+
+spring:
+  datasource:
+    url: jdbc:h2:mem:prod-db
+    driverClassName: org.h2.Driver
+    username: sa
+    password: ''
+  h2:
+    console:
+      enabled: true   # usually disabled in prod
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: none   # safer for prod
+    show-sql: true
+

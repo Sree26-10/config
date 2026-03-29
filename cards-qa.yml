@@ -1,0 +1,12 @@
+server:
+  port: 9003
+
+build:
+  version: 3.0.0
+
+cards:
+  message: "Welcome to KDCB cards related local QA API"
+  contactDetails:
+    name: "Karthik-QA"
+    email: "kar@210.com"
+  onCallSupport: "+91 73556893719"

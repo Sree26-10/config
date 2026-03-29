@@ -1,0 +1,29 @@
+server:
+  port: 8083
+
+build:
+  version: 2.0.0
+
+
+
+accounts:
+  message: "Welcome to KDCB related accounts local QA API"
+  contactDetails:
+    name: "Karthik-QA"
+    email: "kar@210.com"
+  onCallSupport: "+91 73556893719"
+
+spring:
+  datasource:
+    url: jdbc:h2:mem:qa-db
+    driverClassName: org.h2.Driver
+    username: sa
+    password: ''
+  h2:
+    console:
+      enabled: true
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true

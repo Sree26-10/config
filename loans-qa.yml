@@ -1,0 +1,29 @@
+server:
+  port: 8087
+
+build:
+  version: 3.0.0
+
+spring:
+  datasource:
+    url: jdbc:h2:mem:prod-db
+    driverClassName: org.h2.Driver
+    username: sa
+    password: ''
+  h2:
+    console:
+      enabled: false   # usually disabled in prod
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: none   # safer for prod
+    show-sql: false
+  config:
+    activate:
+      on-profile: qa
+loans:
+  message: "Welcome to KDCB related loans local QA API"
+  contactDetails:
+    name: "Karthik-QA"
+    email: "kar@210.com"
+  onCallSupport: "+91 73556893719"

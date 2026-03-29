@@ -1,0 +1,17 @@
+server:
+  port: 8080
+
+build:
+  version: 1.0.0
+
+accounts:
+  message: "Welcome to KDCB related accounts local default API"
+  contactDetails:
+    name: "Sree-Developer"
+    email: "sri@2610.com"
+  onCallSupport: "+91 7382636119"
+
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html

@@ -1,0 +1,30 @@
+server:
+  port: 8086
+
+build:
+  version: 2.0.0
+
+loans:
+  message: "Welcome to KDCB related loans local prod API"
+  contactDetails:
+    name: "Sree-Developer"
+    email: "sri@2610.com"
+  onCallSupport: "+91 7382636119"
+
+spring:
+  datasource:
+    url: jdbc:h2:mem:prod-db
+    driverClassName: org.h2.Driver
+    username: sa
+    password: ''
+  h2:
+    console:
+      enabled: false   # usually disabled in prod
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: none   # safer for prod
+    show-sql: false
+  config:
+    activate:
+      on-profile: prod

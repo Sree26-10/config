@@ -1,0 +1,11 @@
+build:
+  version: 1.0.0
+
+cards:
+  message: "Welcome to KDCB cards related local default API"
+  contactDetails:
+    name: "Sree-Developer"
+    email: "sri@2610.com"
+  onCallSupport: "+91 7382636119"
+      # Change to "prod" or "dev" when needed
+
