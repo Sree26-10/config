@@ -5,7 +5,7 @@ build:
   version: 2.0.0
 
 cards:
-  message: "Welcome to KDCB cards related local webhook production API"
+  message: "Welcome to KDCB cards related local  production API"
   contactDetails:
     name: "Sree-Developer"
     email: "sri@2610.com"
