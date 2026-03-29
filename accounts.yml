@@ -5,7 +5,7 @@ build:
   version: 1.0.0
 
 accounts:
-  message: "Welcome to KDCB related accounts local default API"
+  message: "Welcome to KDCB related accounts local default webhook API"
   contactDetails:
     name: "Sree-Developer"
     email: "sri@2610.com"
