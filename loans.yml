@@ -1,8 +1,5 @@
-server:
-  port: 8085
-
 build:
-  version: 1.0.0
+  version: "1.0.0"
 
 loans:
   message: "Welcome to KDCB loans related local defualt API"
